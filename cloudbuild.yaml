@@ -1,0 +1,8 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build',
+          '--build-arg', 'PROJECT=${_PROJECT}',
+          '--build-arg', 'MOUNT_PATH=${_MOUNT_PATH}',
+          '-t', '${_IMAGE_URL}', '.']
+images:
+- '${_IMAGE_URL}' 
