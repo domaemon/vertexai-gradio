@@ -1,1 +1,1 @@
-# vertex-gradio
+# vertexai-gradio
