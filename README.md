@@ -4,7 +4,7 @@
 
 Cloud Load Balancer <- Load Balancer Backend -> Cloud Run (Gradio App)
 
-# Local envrionment setup
+# Local envrionment
 
 $ python -m venv .venv
 $ pip install gradio
