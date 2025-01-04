@@ -90,6 +90,7 @@ Purpose and Goals:
     )
 
     final_text = ""
+    yield gr.Textbox(value=final_text, visible=True), gr.Markdown(visible=False)
     
     # Iterate over the stream and yield each chunk of text
     for chunk in response:
