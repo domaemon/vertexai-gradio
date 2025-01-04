@@ -177,10 +177,16 @@ cython_debug/
 # gradio files
 .gradio/
 
-# setting env variable
+# env variables
 1_env_export.sh
+# API and service accounts
 2_service_account_setup.sh
+# deployment
 3_cloud_deploy.sh
 
 # service account
 vertexai-gradio.json
+
+# example images
+sample_image1.jpg
+sample_image2.jpg
