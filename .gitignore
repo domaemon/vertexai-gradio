@@ -188,5 +188,5 @@ cython_debug/
 vertexai-gradio.json
 
 # example images
-sample_image1.jpg
-sample_image2.jpg
+sample-image1.jpg
+sample-image2.jpg
