@@ -16,6 +16,8 @@ Cloud Load Balancer <- Load Balancer Backend -> Cloud Run (Gradio App)
 
 $ python -m venv .venv
 
+$ . .venv/bin/activate
+
 $ pip install gradio
 
 $ pip install google_genai
